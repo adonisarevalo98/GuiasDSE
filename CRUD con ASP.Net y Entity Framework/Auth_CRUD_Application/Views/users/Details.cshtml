@@ -1,0 +1,50 @@
+﻿@model Auth_CRUD_Application.Models.users
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>users</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.passwd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.passwd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_category)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_user }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
