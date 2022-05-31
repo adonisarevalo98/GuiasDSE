@@ -1,0 +1,21 @@
+
+--DATATABLE OFICIAL
+https://datatables.net/
+https://datatables.net/download/packages
+
+--RESPONSIVE DATATABLE
+https://datatables.net/extensions/responsive/examples/initialisation/className.html
+
+--ADD BUTTON DATATABLE
+https://datatables.net/extensions/buttons/examples/initialisation/custom.html
+
+
+--IMAGENES DATATABLE
+https://datatables.net/forums/discussion/46575/datatable-error
+
+--IDIOMA ESPAÑOL DATATABLE
+https://datatables.net/plug-ins/i18n/Spanish
+
+
+--DESCARGAR ESTILOS
+https://fontawesome.com/download
